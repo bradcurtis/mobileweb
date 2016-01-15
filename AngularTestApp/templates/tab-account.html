@@ -1,0 +1,79 @@
+<ion-view view-title="Account">
+ 
+        <ion-content>
+            <div class="item item-divider">
+                Pick a Date
+            </div>
+            <label class="item item-input">
+                <span class="input-label">Date</span>
+                <input type="date" ng-model="accountctrl.well.date" required />
+            </label>
+            <ul>
+                <li>
+                   
+                        <div class="item item-divider">
+                            Pick a Vendor
+                        </div>
+                 
+                        <select name="client" ng-model="vendor.selected" ng-options="vendor.vendorname for vendor in accountctrl.vendors" class="item-input item-select" required></select>
+                 
+                </li>
+                <li ng-show="vendor.selected">
+                    <div class="item item-divider">
+                        Pick a Job Brief
+                    </div>
+                    
+                    <ion-list>
+
+                        <ion-item ng-repeat="b in vendor.selected.prejobbrief"
+                                  item="item">
+                            <label class="checkbox">
+                                <input type="checkbox" ng-model="prejobbrief.selected">
+                            </label>
+
+                            {{ b.briefname }}
+                        </ion-item>
+                        </ion-list>
+                    </li>
+                <li ng-show="vendor.selected">
+                    <div class="item item-divider">
+                        Pick active euqipment
+                    </div>
+
+                    <ion-list>
+
+                        <ion-item ng-repeat="e in vendor.selected.activeequipment"
+                                  item="item">
+                            <label class="checkbox">
+                                <input type="checkbox" ng-model="activeequipment.selected">
+                            </label>
+
+                            {{ e.equipmentname }}
+                        </ion-item>
+
+                    </ion-list>
+                </li>
+            </ul>
+
+
+            <div class="item item-divider">
+                Vendor Title
+            </div>
+
+
+            <div class="item">
+                <label class="item item-input">
+                    <span class="input-label">title</span>
+                    <input type="text" ng-model="accountctrl.well.title" />
+                </label>
+
+                <div class="item item-divider">
+
+                </div>
+                <div class="button button-dark" ng-click="accountctrl.newTask()">
+                    submit
+                </div>
+            </div>
+        </ion-content>
+ 
+</ion-view>

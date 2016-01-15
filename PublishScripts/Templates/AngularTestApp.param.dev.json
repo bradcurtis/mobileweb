@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "JohnsonPaceAngularTest"
+  },
+  "hostingPlanName": {
+    "value": "testing"
+  },
+  "siteLocation": {
+    "value": "South Central US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "0a24eb2d-89b6-43a5-ab11-63264e7d413f"
+  },
+  "resourceGroup": {
+    "value": "Default-ApplicationInsights-CentralUS"
+  }
+}

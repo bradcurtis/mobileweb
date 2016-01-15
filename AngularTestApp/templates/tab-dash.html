@@ -1,0 +1,24 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <div class="list card">
+      <div class="item item-divider">Please Login</div>
+      <div class="item item-body">
+        <div>
+            <label class="item item-input">
+                <span class="input-label">Username</span>
+                <input type="text" ng-model="ctrl.user.username">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Password</span>
+                <input type="password" ng-model="ctrl.user.userpassword">
+            </label>
+        </div>
+      </div>
+    </div>
+      <div class="list card">
+          <button class="button button-block button-positive" ng-click="ctrl.signIn()">
+              Sign-In
+          </button>
+      </div>
+  </ion-content>
+</ion-view>

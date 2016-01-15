@@ -1,0 +1,55 @@
+<ion-view view-title="Account">
+    <form>
+        <ion-content>
+            <div class="item item-divider">
+                Pick a Date
+            </div>
+
+
+
+
+
+            <label class="item item-input">
+                <span class="input-label">Date</span>
+                <input type="date" ng-model="well.date" required />
+            </label>
+
+
+
+            <div class="item item-divider">
+                Pick a Vendor
+            </div>
+
+
+
+
+            <ul>
+                <li ng-repeat="vendor in vendors">
+                    <label>
+                        <ion-checkbox type="checkbox" value={{vendor}} ng-model="vendor.selected" />
+                        {{vendor.name}}
+                    </label>
+                </li>
+            </ul>
+
+            <div class="item item-divider">
+                Vendor Title
+            </div>
+
+
+            <div class="item">
+                <label class="item item-input">
+                    <span class="input-label">title</span>
+                    <input type="text" ng-model="well.title" />
+                </label>
+
+                <div class="item item-divider">
+
+                </div>
+                <button class="button button-dark" ng-click="newTask(well,vendor.selected)">
+                    submit
+                </button>
+            </div>
+        </ion-content>
+    </form>
+</ion-view>

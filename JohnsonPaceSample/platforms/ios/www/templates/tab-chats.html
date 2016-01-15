@@ -1,0 +1,35 @@
+<ion-view view-title="Current D">
+  <ion-content>
+      welcome: <h2>{{loggedinUser.username}}</h2>
+
+
+      <div class="item item-divider">
+          Current Well Items
+      </div>
+
+
+      <ion-list show-delete="shouldShowDelete"
+                can-swipe="listCanSwipe">
+
+          <ion-item ng-repeat="well in wells">
+
+
+              <h2>{{well.title}}</h2>
+
+              <ion-option-button class="button-info"
+                                 ng-click="edit(well)">
+                  Edit
+              </ion-option-button>
+              <ion-option-button class="button-info"
+                                 ng-click="delete(well)">
+                  Delete
+              </ion-option-button>
+              <ion-delete-button class="ion-minus-circled"
+                                 ng-click="items.splice($index, 1)">
+              </ion-delete-button>
+
+          </ion-item>
+
+      </ion-list>
+  </ion-content>
+</ion-view>

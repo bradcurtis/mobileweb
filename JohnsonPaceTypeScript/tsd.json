@@ -1,0 +1,24 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "faa49cc68025118355b677b936892435b9be7247"
+    },
+    "cordova/cordova.d.ts": {
+      "commit": "faa49cc68025118355b677b936892435b9be7247"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "faa49cc68025118355b677b936892435b9be7247"
+    },
+    "lokijs/lokijs.d.ts": {
+      "commit": "faa49cc68025118355b677b936892435b9be7247"
+    },
+    "ionic/ionic.d.ts": {
+      "commit": "faa49cc68025118355b677b936892435b9be7247"
+    }
+  }
+}

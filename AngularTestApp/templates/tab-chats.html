@@ -1,0 +1,39 @@
+<ion-view view-title="Current D">
+  <ion-content>
+      welcome: <h2>{{loggedinUser.username}}</h2>
+
+
+      <div class="item item-divider">
+          Current Well Items
+      </div>
+
+
+      <ion-list show-delete="shouldShowDelete"
+                can-swipe="true">
+
+          <ion-item ng-repeat="viewwell in viewwells" >
+
+
+              <h2>{{viewwell.title}}</h2>
+
+              <ion-option-button class="button-info"
+                                 ng-click="edit(viewwell)">
+                  Edit
+              </ion-option-button>
+              <ion-option-button class="button-info"
+                                 ng-click="chatsctrl.remove(viewwell)">
+                  Delete
+              </ion-option-button>
+              <ion-delete-button class="ion-minus-circled"
+                                 ng-click="items.splice($index, 1)">
+              </ion-delete-button>
+
+          </ion-item>
+
+      </ion-list>
+
+      <div class="button button-dark" ng-click="submittasks()">
+          Save All Tasks to Server
+      </div>
+  </ion-content>
+</ion-view>

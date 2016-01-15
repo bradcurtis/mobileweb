@@ -1,0 +1,131 @@
+DEBUG 2016-01-07 07:21:49,085 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-01-07 07:21:50,593 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-01-07 07:21:50,596 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectApplicationModule, myproject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectCoreModule, myproject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectDataModule, myproject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.Web.myprojectWebModule, myproject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectWebApiModule, myproject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:21:50,603 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-01-07 07:21:52,397 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-01-07 07:21:52,420 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-01-07 07:21:52,420 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-01-07 07:21:52,422 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myproject
+DEBUG 2016-01-07 07:21:53,484 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+WARN  2016-01-07 07:21:58,890 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-01-07 07:21:58,910 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-01-07 07:54:44,813 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-01-07 07:54:46,118 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-01-07 07:54:46,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectApplicationModule, myproject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectCoreModule, myproject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectDataModule, myproject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.Web.myprojectWebModule, myproject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectWebApiModule, myproject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 07:54:46,128 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-01-07 07:54:47,327 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-01-07 07:54:47,331 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-01-07 07:54:47,331 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-01-07 07:54:47,333 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myproject
+DEBUG 2016-01-07 07:54:48,366 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+WARN  2016-01-07 07:54:52,570 [150  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-01-07 07:54:52,587 [150  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-01-07 08:46:57,991 [193  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-01-07 08:46:59,497 [193  ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-01-07 08:46:59,500 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,502 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,502 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,503 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,503 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,503 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,503 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectApplicationModule, myproject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,503 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectCoreModule, myproject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,503 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectDataModule, myproject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,503 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.Web.myprojectWebModule, myproject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,504 [193  ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectWebApiModule, myproject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-07 08:46:59,507 [193  ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-01-07 08:47:00,962 [193  ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-01-07 08:47:00,965 [193  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-01-07 08:47:00,966 [193  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-01-07 08:47:00,967 [193  ] Abp.Localization.LocalizationManager     - Initialized localization source: myproject
+DEBUG 2016-01-07 08:47:02,222 [193  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+WARN  2016-01-07 08:47:06,579 [182  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-01-07 08:47:06,597 [182  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-01-08 09:04:11,833 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectApplicationModule, myproject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectCoreModule, myproject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectDataModule, myproject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 09:04:13,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectWebApiModule, myproject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 09:04:13,124 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2016-01-08 09:04:14,294 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2016-01-08 09:04:14,294 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-01-08 09:04:14,294 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-01-08 09:04:15,304 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-01-08 15:15:25,917 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-01-08 15:15:29,177 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectApplicationModule, myproject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectCoreModule, myproject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectDataModule, myproject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectWebApiModule, myproject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:15:29,193 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2016-01-08 15:15:30,378 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2016-01-08 15:15:30,394 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-01-08 15:15:30,394 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-01-08 15:15:31,502 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-01-08 15:18:32,325 [13   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-01-08 15:18:33,904 [13   ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2016-01-08 15:18:33,907 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:18:33,909 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:18:33,909 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:18:33,909 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:18:33,909 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:18:33,910 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:18:33,910 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectApplicationModule, myproject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:18:33,910 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectCoreModule, myproject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:18:33,910 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectDataModule, myproject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:18:33,910 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectWebApiModule, myproject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:18:33,913 [13   ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2016-01-08 15:18:35,230 [13   ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2016-01-08 15:18:35,233 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-01-08 15:18:35,234 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-01-08 15:18:36,461 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-01-08 15:26:32,367 [41   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectApplicationModule, myproject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectCoreModule, myproject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectDataModule, myproject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - Loaded module: myproject.myprojectWebApiModule, myproject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-01-08 15:26:36,239 [41   ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2016-01-08 15:26:37,440 [41   ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2016-01-08 15:26:37,440 [41   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-01-08 15:26:37,440 [41   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-01-08 15:26:38,642 [41   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
