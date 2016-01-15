@@ -6,7 +6,7 @@
             </div>
             <label class="item item-input">
                 <span class="input-label">Date</span>
-                <input type="date" ng-model="accountctrl.well.date" required />
+                <input type="date" ng-model="accountctrl.insertformupdate.date" required />
             </label>
             <ul>
                 <li>
@@ -73,6 +73,8 @@
                 <div class="button button-dark" ng-click="accountctrl.newTask()">
                     submit
                 </div>
+
+                <pre>{{accountctrl.insertformupdate | json}}</pre>
             </div>
         </ion-content>
  

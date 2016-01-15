@@ -111,6 +111,7 @@
     <TypeScriptCompile Include="js\controllers\commonCtl.ts" />
     <TypeScriptCompile Include="js\controllers\dashCtl.ts" />
     <TypeScriptCompile Include="js\controllers\tabCtl.ts" />
+    <TypeScriptCompile Include="js\models\mine.ts" />
     <TypeScriptCompile Include="js\models\user.ts" />
     <TypeScriptCompile Include="js\models\vendor.ts" />
     <TypeScriptCompile Include="js\models\wellForm.ts" />

@@ -29,7 +29,7 @@ var starter;
         })();
         domain.projectName = projectName;
         var wellForm = (function () {
-            function wellForm(date, mine, crewname, ponumber, supervisorcount, crewmembercount, prejobbrief, activequipment) {
+            function wellForm(date, mine, crewname, ponumber, supervisorcount, crewmembercount, prejobbrief, activequipment, vendor) {
                 this.date = date;
                 this.mine = mine;
                 this.crewname = crewname;
@@ -38,6 +38,7 @@ var starter;
                 this.crewmembercount = crewmembercount;
                 this.prejobbrief = prejobbrief;
                 this.activequipment = activequipment;
+                this.vendor = vendor;
             }
             return wellForm;
         })();

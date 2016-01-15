@@ -15,6 +15,7 @@
         state: any;
         selectedFilter: ng.IFilterFilter;
         dataservice: app.common.IDataService;
+        insertformupdate: starter.domain.wellForm;
 
         static $inject = ["$scope", "$rootScope", "UserService", "filterFilter", "Chats", "$state", "dataService"];
         constructor($scope: ng.IScope, $rootScope: ng.IRootScopeService, UserService: any, filterFilter: ng.IFilterFilter, Chats: any, $state: any, dataservice: app.common.IDataService) {
@@ -25,6 +26,7 @@
             this.state = $state
             this.selectedFilter = filterFilter;
             this.dataservice = dataservice;
+           
 
         }
 

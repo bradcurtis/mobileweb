@@ -8,6 +8,7 @@
         crewmembercount: Number;
         prejobbrief: string;
         activequipment: string;
+        vendor: Ivendor;
 
 
 
@@ -37,7 +38,7 @@
         constructor(public name:string, public id:string) { }
     }
     export class wellForm implements IWellForm {
-        constructor(public date: Date, public mine: IMine, public crewname: string, public ponumber: string, public supervisorcount: Number, public crewmembercount: Number, public prejobbrief: string, public activequipment:string) { }
+        constructor(public date: Date, public mine: IMine, public crewname: string, public ponumber: string, public supervisorcount: Number, public crewmembercount: Number, public prejobbrief: string, public activequipment:string,public vendor:Ivendor) { }
     }
 
 
